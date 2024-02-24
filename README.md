@@ -20,9 +20,9 @@ docker build -t cocom . && docker run -p 8080:8080 -it cocom
 
 ### REST API
 ```http request
- GET  http://localhost:8080/api/v1/sodas
- POST http://localhost:8080/api/v1/coins  {"coins" : 100}
- POST http://localhost:8080/api/v1/soda/{sodaID}/purchase
+GET  http://localhost:8080/api/v1/sodas
+POST http://localhost:8080/api/v1/coins  {"coins" : 100}
+POST http://localhost:8080/api/v1/soda/{sodaID}/purchase
 
 Admin access
 
